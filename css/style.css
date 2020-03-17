@@ -1,0 +1,216 @@
+/*Feuille de style*/
+
+/*Changement de la police en ambleregular*/
+body  
+{
+	background-color: #F7F7F0;	
+}
+
+#bloc_page
+{
+	display: flex;
+    width: 900px; /*j'ai fixé une limite de 900px*/
+    margin: auto; /*et fixé la page au centre*/
+}
+
+#mise_en_page
+{
+	display: flex;
+	flex-direction: column;
+	margin-left: -10%;	
+}
+
+#titre_principal
+{
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;	
+}
+
+#accroche_cv
+{
+	display: flex;
+	flex-direction: column;	
+	
+}
+
+.taille_h2{
+	font-size: 20px;
+	font-weight: bold;
+
+}
+
+.taille_image{
+    height: 150px;
+    width: 150px;
+}
+
+#corps_cv
+{
+	display: flex;
+	margin-top: 10%;
+	margin-left: -100px;
+}
+
+
+
+article
+{
+	margin-right: 3%;
+}
+
+aside
+{
+	width: 50%;
+	height: 100%;
+    position: relative;
+    background-color: #706b64;
+    border-radius: 25% 10%;
+	padding: 15px;
+	margin-left: 0px;
+    color: white;
+    font-size: 90%;
+	padding-top: 10%;
+}
+
+#nom
+{
+	padding-bottom: 20%;
+	margin: auto;
+	padding: 30px;
+	
+}
+
+.ligne_separation
+{
+	width: 100px;
+	height: 2px;
+	background: #333300;
+	margin: 10px auto;
+	
+}
+
+#maison
+{
+	display: flex;
+	margin-right: 75px;	
+	
+}
+
+.icone_maison
+{
+	width: 25%;
+	margin: auto;
+	margin-left: 0px;
+}
+
+#contact_tel
+{
+	display: flex;
+	margin-left: 10px;		
+}
+
+.age{
+	display: flex;
+	margin-left: 100px;
+}
+
+.icone_contact_tel
+{
+	width: 18%;
+	margin-right: 10px;
+	margin-left: -10px;	
+}
+
+#contact_email
+{
+	display: flex;
+}
+
+.icone_contact_email
+{
+	width: 18%;
+	margin-right: 10px;
+	margin-left: -1px;
+}
+
+h1, h2
+{
+	color: #333300;
+	text-transform: uppercase;
+}
+
+h3
+{
+	color: #333300;	
+	text-transform: uppercase;
+}
+
+.perso_bouton_retour{
+	background: rgb(58, 58, 61);
+	position: relative;
+	top: -50px;
+    color: #fff;
+}
+
+.perso_bouton_retour_anim{
+	animation-name: saut;
+	animation-duration: 0.5s;
+	position: relative;
+}
+
+@keyframes saut{
+	0%{left:-1000px;}
+	100%{left:0px;}
+}
+
+/* @keyframes saut{
+	0%{
+		transition: all 200ms ease-in;
+		transform: scale(1);
+
+	}
+	100%{
+		transition: all 200ms ease-in;
+		transform: scale(3);
+	}
+} */
+
+
+@media all and (max-width: 1024px)
+
+{
+    #bloc_page
+	{
+		width: 200px;
+		margin: auto;
+	}
+	
+	#photo_profil{
+		display: none;
+	}
+	
+	#accroche_cv
+	{
+		margin-right: 20%;
+		
+	}
+	
+	aside
+	{
+	display: none;
+	}
+	
+	
+	#corps_cv
+	{
+	flex-direction: column;
+	width: 100%;
+	margin-top: 10%;
+	}
+
+	
+}
+
+
+

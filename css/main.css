@@ -1,0 +1,311 @@
+body{
+    font-family: 'Gelasio', serif;
+}
+
+.bg
+{
+    width: 100px;
+}
+.perso_bg_menu{
+    background-color:rgb(250, 249, 248);
+    background: linear-gradient(rgb(52, 60, 70), rgb(190, 173, 173));
+}
+
+.perso_bg_footer{
+    background: linear-gradient(rgb(52, 60, 70), rgb(190, 173, 173));
+}
+
+.perso_bouton_mentions_legales{
+    cursor: pointer;
+}
+
+.perso_couleur_nav{
+    color: rgb(3, 4, 54) !important;
+}
+
+.perso_taille_accroche{
+    color: rgb(39, 38, 38) !important;
+   font-size: 30px;
+}
+
+.perso_taille_intro{
+   font-size: 20px;
+}
+
+.perso_bgbouton{
+    background-color: #DAC8B4;
+}
+
+.perso_bgboutonCV{
+    background-color:#DAC8B4;
+   
+}
+
+
+
+ a{
+    color: black !important;
+    font-size: 20px;
+}
+
+.perso_intro{
+    display: flex;
+    flex-direction: column ;
+    margin-right: 70px;
+}
+
+.perso_bg_competences{
+    height: 700px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 200px;
+        
+}
+
+.perso_bg_outils{
+    background: rgb(219, 210, 210) no-repeat fixed center;
+    height: 700px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+  
+}
+
+.perso_flex_btn_competences{
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+
+.perso_li_competences{
+    display: inline-block;
+    background: rgb(4, 155, 62);
+    border-radius: 18px;
+    padding: 0 1em;
+    margin: 5px;
+    height: 36px;
+    line-height: 36px;
+    color: #fff;
+}
+
+.perso_li_competences_rouge{
+    display: inline-block;
+    background: rgb(247, 6, 6);
+    border-radius: 18px;
+    padding: 0 1em;
+    margin: 5px;
+    height: 36px;
+    line-height: 36px;
+    color: #fff;
+}
+
+.perso_li_competences_orange{
+    display: inline-block;
+    background: rgb(243, 140, 22);
+    border-radius: 18px;
+    padding: 0 1em;
+    margin: 5px;
+    height: 36px;
+    line-height: 36px;
+    color: #fff;
+}
+
+.perso_li_competences_bleu{
+    display: inline-block;
+    background: rgb(36, 6, 121);
+    border-radius: 18px;
+    padding: 0 1em;
+    margin: 5px;
+    height: 36px;
+    line-height: 36px;
+    color: #fff;
+}
+
+.perso_li_competences_vert{
+    display: inline-block;
+    background: rgb(3, 112, 12);
+    border-radius: 18px;
+    padding: 0 1em;
+    margin: 5px;
+    height: 36px;
+    line-height: 36px;
+    color: #fff;
+}
+ /*
+.perso_portfolio{
+    color: rgb(7, 7, 7);
+    height: 700px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    padding-top: 60px; */
+}
+
+/* .perso_portfolio_container2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    margin-top: -30px;
+    margin-bottom: 150px;
+
+} */
+
+/* .perso_flex_card_1{
+    display: flex;
+    margin-left: 90px;
+    margin-right: 100px;
+    margin-top: 100px;
+} */
+
+.flex_card1{
+    background: rgba(252, 248, 248, 0.726);
+    color: black;
+    opacity: 0.5;
+    /* display: flex;
+    flex-direction: column;
+    margin-top: 200px; */
+    
+}
+
+/* .perso_flex_card_2{
+    display: flex;
+    margin-right: -200px;
+    margin-right: 100px;
+    margin-top: 100px;
+} */
+
+.flex_card2{
+    background: rgba(252, 248, 248, 0.726);
+    color: black;
+    opacity: 0.5;
+    /* display: flex;
+    flex-direction: column;
+    margin-top: 200px;
+     */
+}
+
+
+/* .animation_card_1{
+    animation-name: card_1;
+    animation-duration: 1s;
+    position: relative;
+}
+
+@keyframes card_1{
+    0%{left: -1000px;}
+    100%{left: 0px;}
+} */
+
+.animation_h1{
+    animation-duration: 5s;
+    animation-name: anim_h1;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes anim_h1 {
+    from {
+      margin-left: 100%;
+      width: 300%; 
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+
+.perso_bg_fa1{
+    background: #000;
+    width: 50%;
+}
+
+nav a:hover{
+    color: rgb(126, 9, 5) !important;
+}
+
+.perso_bgBlueDegrade{
+    background: linear-gradient(rgb(52, 60, 70), rgb(190, 173, 173));
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.perso_bg_contact{
+    background-color: rgb(68, 68, 66);
+    color: black;
+    width: 100%;
+   
+}
+
+.perso_image{
+    width: 250px;
+    border-radius: 20%;
+    /* display: flex;
+    margin-left: 120px; */
+}
+
+.perso_mecontacter{
+    font-family: 'Bowlby One SC', cursive;
+    color: rgb(3, 3, 3);
+    font-weight: bold;
+}
+
+.perso_bg_accroche{
+
+    color: rgb(3, 3, 3);
+    height: 700px;
+    width: 100%;
+    /* display: flex;
+    align-items: center;
+    flex-wrap: wrap; */
+}
+
+
+
+
+.card a:hover{
+    color: rgb(55, 0, 255) !important;
+}
+
+   
+.perso_banniere{
+    background: linear-gradient(rgb(220, 220, 228), rgb(233, 191, 191));
+    color: rgb(14, 13, 13);
+    height: 700px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.perso_image_card_bg_1{
+    background: url("../sources/images/BG.png");
+    
+    background-size: 300px 300px;
+    height: 300px;
+    width: 300px;
+
+}
+
+.perso_image_card_bg_2{
+    background: url("../sources/images/M2I.png");
+    background-repeat: no-repeat;
+    background-size: 300px 300px;
+    height: 300px;
+    width: 300px;
+}
+
+
+/* #perso_id_card1 :hover{
+    visibility: visible;
+} */
+
